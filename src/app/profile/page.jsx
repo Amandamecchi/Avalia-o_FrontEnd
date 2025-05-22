@@ -4,7 +4,7 @@ import styles from "./Profile.module.css";
 import Image from 'next/image';
 import Button from "../../components/Button";
 
-export default function profile() {
+export default function profile() {        
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Amanda Gomes Mechi</h1>
@@ -23,7 +23,6 @@ export default function profile() {
                 />
             </div>
             <Button />
-            
         </div>
 
     );
